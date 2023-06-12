@@ -1,4 +1,4 @@
-# Data Structures
+# Data Structures in Rust
 
 ## Doubly Linked Deque
 

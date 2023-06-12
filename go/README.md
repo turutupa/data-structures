@@ -1,4 +1,4 @@
-# Data Structures
+# Data Structures in Go
 
 ##  Least Recently Used implementation in Go
 
