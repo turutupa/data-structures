@@ -149,7 +149,7 @@ mod test {
         list.push_front(1);
         assert_eq!(list.head.clone().unwrap().borrow().elem, 1);
 
-        list.push_front(38);
+        list.push_front(2);
         assert_eq!(list.head.unwrap().borrow().elem, 2);
     }
 
