@@ -2,7 +2,7 @@
 
 ## Doubly Linked Deque
 
-Upon my failed attempt in implementing a LRU (see down below) I followed [this tutorial](https://rust-unofficial.github.io/too-many-lists/fourth.html) to learn how to create a doubly linked list which is used in a LRU. The main problem, no surprise, were the many borrow errors. 
+Upon my failed attempt in implementing a LRU (see down below) I followed [this tutorial](https://rust-unofficial.github.io/too-many-lists/fourth.html) to learn how to create a doubly linked deque which is used in a LRU. The main problem, no surprise, were the many borrow errors. 
 
 The solution. This doubly linked deque uses Rc (Reference Counting)
 - allows multiple ownership of data
