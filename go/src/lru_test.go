@@ -6,7 +6,11 @@ import (
 
 func TestEqualArrays(t *testing.T) {
 	lru := NewLRU[string, uint32](3)
-	lru.SetVerbose(true)
+
+	// !!!!!!!!!!!!!! IMPORTANT !!!!!!!!!!!!!!!!
+	// set this to true if you want to see the link list of the
+	// LRU printed out on screen on each operation
+	lru.SetVerbose(false)
 
 	// Test initial state
 	if _, exists := lru.Get("foo"); exists {
