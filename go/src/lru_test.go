@@ -1,4 +1,4 @@
-package foo
+package data_structures
 
 import (
 	"testing"
