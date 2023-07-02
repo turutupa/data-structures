@@ -1,7 +1,6 @@
 # Data Structures in Rust
 
 ## Doubly Linked Deque
-
 Upon my failed attempt in implementing a LRU (see down below) I followed [this tutorial](https://rust-unofficial.github.io/too-many-lists/fourth.html) to learn how to create a doubly linked deque which is used in a LRU. The main problem, no surprise, were the many borrow errors. 
 
 The solution. This doubly linked deque uses Rc (Reference Counting)
@@ -15,8 +14,13 @@ and RefCell (Reference Cell)
 - it keeps track of borrowing with a borrowing counter
 
 ##  Least Recently Used implementation in Rust
-
 This project is based on ThePrimeagen's course `The Last Algorithm's Course You'll Need`, more specifically, the section on Maps and LRU Cache. The aim of this project is to implement LRU in Rust instead of TypeScript.
 
 https://frontendmasters.com/courses/algorithms/implementing-an-lru-cache/
+
+## Key Value Store 
+Key-Value Store implemented in Rust.
+
+Go to kvs [README.md](/rust/src/kvs/README.md)
+
 
